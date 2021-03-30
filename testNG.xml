@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Ecommerce">
+	
+-<listeners>
+	<listener class-name="com.Ecommerce.utilities.ExtentReportManager"/>
+</listeners>
+
+	<parameter name="Browser" value="Chrome"/>
+<!-- <parameter name="Browser" value="FireFox" /> -->
+
+	<test name="TC_LoginTest_001">
+		<classes>
+			<class name="com.Ecommerce.testCases.TC_LoginTest_001"/>
+		</classes>
+	</test>
+	<test name="TC_AddCustomerTest_003">
+		<classes>
+ 			<class name="com.Ecommerce.testCases.TC_AddCustomerTest_003"/>
+		</classes>
+	</test>
+
+<!-- <test name="TC_LoginDDT_002">
+		<classes>
+			<class name="com.Ecommerce.testCases.TC_LoginDDT_002" />
+		</classes>
+	</test> 
+
+	<test name="TC_SearchCustomerByEmail_004">
+		<classes>
+			<class name="com.Ecommerce.testCases.TC_SearchCustomerByEmail_004" />
+		</classes>
+	</test>
+
+	<test name="TC_SearchCustomerByName_005">
+		<classes>
+			<class name="com.Ecommerce.testCases.TC_SearchCustomerByName_005" />
+		</classes>
+	</test> -->
+
+
+<!-- <test name="TC_LoginTest_001">
+<classes>
+<class name="com.Ecommerce.testCases.TC_LoginTest_001"/>
+<class name="com.Ecommerce.testCases.TC_LoginDDT_002" />
+<class name="com.Ecommerce.testCases.TC_AddCustomerTest_003" />
+<class name="com.Ecommerce.testCases.TC_SearchCustomerByEmail_004" />
+<class name="com.Ecommerce.testCases.TC_SearchCustomerByName_005" />
+</classes></test> -->
+</suite>

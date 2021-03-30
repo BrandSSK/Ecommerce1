@@ -1,0 +1,11 @@
+com\Ecommerce\pageObjects\SearchCustomerPage.class
+com\Ecommerce\testCases\TC_LoginTest_001.class
+com\Ecommerce\testCases\TC_SearchCustomerByName_005.class
+com\Ecommerce\utilities\ExtentReportManager.class
+com\Ecommerce\testCases\TC_SearchCustomerByEmail_004.class
+com\Ecommerce\pageObjects\LoginPage.class
+com\Ecommerce\testCases\TC_AddCustomerTest_003.class
+com\Ecommerce\testCases\TC_LoginDDT_002.class
+com\Ecommerce\pageObjects\AddCustomerPage.class
+com\Ecommerce\utilities\XLUtils.class
+com\Ecommerce\testBase\BaseClass.class
